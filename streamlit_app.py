@@ -4,7 +4,7 @@ import numpy as np
 from keras.models import load_model
 
 # Import the class labels from labels.txt and assign to a list
-classes = ['  '.join(x.split('  ')[1:]).replace('\n','') for x in open('labels.txt', 'r').readlines()]
+classes = [' '.join(x.split(' ')[1:]).replace('\n','') for x in open('labels.txt', 'r').readlines()]
 # Load the Model
 model = load_model('keras_model.h5', compile = False)
 
