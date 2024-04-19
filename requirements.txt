@@ -1,4 +1,3 @@
 opencv-python-headless
 keras>=3.0.0
 tensorflow==2.16.1
-pillow==7.0.0
